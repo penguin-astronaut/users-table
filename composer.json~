@@ -1,0 +1,20 @@
+{
+    "name": "penguin-astronaut/user-table",
+    "description": "test task",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PenguinAstronaut\\UserTable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "penguin-astronaut"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "twig/twig": "^3.0"
+    }
+}
